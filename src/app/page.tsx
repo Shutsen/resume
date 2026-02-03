@@ -189,6 +189,19 @@ export default function Resume() {
                       Operations, marketing, web design, and customer service for a regional product store.
                     </p>
                   </div>
+
+                  <div>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-lg font-semibold text-slate-900">Freelance Web Developer</h3>
+                        <p className="text-slate-600 text-sm">Self-employed • WordPress</p>
+                      </div>
+                      <span className="text-sm text-slate-500">Feb 2015 - Nov 2018</span>
+                    </div>
+                    <p className="text-slate-700 mt-2">
+                      Building WordPress websites for SME clients. Full delivery from design to deployment.
+                    </p>
+                  </div>
                 </div>
               </section>
 
