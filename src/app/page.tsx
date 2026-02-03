@@ -62,7 +62,10 @@ export default function Resume() {
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
-                        <h3 className="text-lg font-semibold text-slate-900">Kaimeleon</h3>
+                        <a href="https://www.kaimeleon.ai" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
+                          Kaimeleon
+                          <ExternalLink size={14} className="text-slate-400" />
+                        </a>
                         <p className="text-slate-600 text-sm">Co-Founder • AI Automation Agency</p>
                       </div>
                       <span className="text-sm text-slate-500">Apr 2024 - Present</span>
@@ -81,7 +84,10 @@ export default function Resume() {
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
-                        <h3 className="text-lg font-semibold text-slate-900">Global Pet Sitter</h3>
+                        <a href="https://www.globalpetsitter.com" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
+                          Global Pet Sitter
+                          <ExternalLink size={14} className="text-slate-400" />
+                        </a>
                         <p className="text-slate-600 text-sm">Co-Founder • Community Platform</p>
                       </div>
                       <span className="text-sm text-slate-500">Dec 2025 - Present</span>
@@ -100,7 +106,10 @@ export default function Resume() {
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
-                        <h3 className="text-lg font-semibold text-slate-900">My Travel Agent</h3>
+                        <a href="https://www.geertvancampenhout.com/work/mytravelagent" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
+                          My Travel Agent
+                          <ExternalLink size={14} className="text-slate-400" />
+                        </a>
                         <p className="text-slate-600 text-sm">Founder • AI Travel Planning</p>
                       </div>
                       <span className="text-sm text-slate-500">2024</span>
