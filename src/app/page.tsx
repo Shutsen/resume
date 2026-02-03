@@ -106,7 +106,7 @@ export default function Resume() {
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
-                        <a href="https://www.geertvancampenhout.com/work/mytravelagent" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
+                        <a href="https://mytravelagent.io" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
                           My Travel Agent
                           <ExternalLink size={14} className="text-slate-400" />
                         </a>
