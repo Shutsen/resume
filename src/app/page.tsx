@@ -65,7 +65,7 @@ export default function Resume() {
                         <h3 className="text-lg font-semibold text-slate-900">Kaimeleon</h3>
                         <p className="text-slate-600 text-sm">Co-Founder • AI Automation Agency</p>
                       </div>
-                      <span className="text-sm text-slate-500">2024 - Present</span>
+                      <span className="text-sm text-slate-500">Apr 2024 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
                       Helping businesses simplify, automate, and accelerate processes through accessible AI solutions. 
@@ -84,14 +84,14 @@ export default function Resume() {
                         <h3 className="text-lg font-semibold text-slate-900">Global Pet Sitter</h3>
                         <p className="text-slate-600 text-sm">Co-Founder • Community Platform</p>
                       </div>
-                      <span className="text-sm text-slate-500">2024 - Present</span>
+                      <span className="text-sm text-slate-500">Dec 2025 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
                       Community-driven pet sitting platform built with transparency and trust at its core. 
                       Features real-time messaging, blind reviews, and AI-powered review importing.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
-                      {["Next.js", "Convex", "Clerk", "TypeScript", "TailwindCSS", "GPT-4 Vision"].map(tag => (
+                      {["Next.js", "Convex", "Clerk", "TypeScript", "TailwindCSS", "Claude"].map(tag => (
                         <span key={tag} className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full">{tag}</span>
                       ))}
                     </div>
@@ -233,7 +233,7 @@ export default function Resume() {
                   <div>
                     <h4 className="font-semibold text-slate-800 text-sm mb-2">AI & Automation</h4>
                     <div className="flex flex-wrap gap-1.5">
-                      {["OpenAI", "LangChain", "n8n", "GPT-4 Vision"].map(skill => (
+                      {["OpenAI", "LangChain", "n8n", "Claude"].map(skill => (
                         <span key={skill} className="px-2 py-1 bg-slate-200 text-slate-800 text-xs rounded">{skill}</span>
                       ))}
                     </div>
