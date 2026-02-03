@@ -145,7 +145,7 @@ export default function Resume() {
                     <p className="text-slate-700 mt-2">
                       Maintaining and developing custom data visualization applications (Arvastat, Schoolverlaters, 
                       Vlaanderen in Europa, Beroepen) — 20+ public dashboards serving all citizens of Flanders. 
-                      End-to-end delivery from requirements to go-live using D3.js, Leaflet, and modern JS libraries.
+                      End-to-end delivery from requirements to go-live using D3.js, Leaflet, and Python backend for data processing.
                     </p>
                   </div>
 
@@ -234,7 +234,7 @@ export default function Resume() {
                   <div>
                     <h4 className="font-semibold text-slate-800 text-sm mb-2">Backend</h4>
                     <div className="flex flex-wrap gap-1.5">
-                      {["Node.js", "Convex", "PostgreSQL", "MySQL", "GCP"].map(skill => (
+                      {["Node.js", "Python", "Convex", "PostgreSQL", "MySQL", "GCP"].map(skill => (
                         <span key={skill} className="px-2 py-1 bg-slate-200 text-slate-800 text-xs rounded">{skill}</span>
                       ))}
                     </div>
