@@ -181,7 +181,7 @@ export default function Resume() {
                     <div className="flex items-start justify-between">
                       <div>
                         <h3 className="text-lg font-semibold text-slate-900">Freelance Web Developer</h3>
-                        <p className="text-slate-600 text-sm">Self-employed • WordPress</p>
+                        <p className="text-slate-600 text-sm">Self-employed • WordPress • Part-time</p>
                       </div>
                       <span className="text-sm text-slate-500">Feb 2015 - Nov 2018</span>
                     </div>
