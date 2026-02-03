@@ -41,7 +41,7 @@ export default function Resume() {
           {/* About */}
           <section className="mb-8">
             <p className="text-lg text-slate-700 leading-relaxed">
-              Multi-disciplined TypeScript developer with a strong interest in UX/UI and AI automation. 
+              Multi-disciplined TypeScript developer with 8+ years of experience and a strong interest in UX/UI and AI automation. 
               Since 2018, I&apos;ve been working non-stop for startups in the Belgian tech sector. Today I freelance 
               for SaaS companies and digital agencies that need to move fast. I co-found projects, build MVPs, 
               and help businesses leverage AI to simplify and accelerate their processes.
