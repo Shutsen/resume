@@ -9,8 +9,8 @@ export default function Resume() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             <div>
               <h1 className="text-4xl font-bold tracking-tight">Geert Van Campenhout</h1>
-              <p className="text-xl text-slate-300 mt-2">Full Stack TypeScript Developer</p>
-              <p className="text-slate-400 mt-1">Founder & Freelancer | AI & SaaS Specialist</p>
+              <p className="text-xl text-slate-300 mt-2">Senior Frontend Engineer</p>
+              <p className="text-slate-400 mt-1">TypeScript Expert | React & Vue | Scalable UI Architecture</p>
             </div>
             <div className="flex flex-col gap-2 text-sm text-slate-300">
               <a href="mailto:vancampenhoutgeert@gmail.com" className="flex items-center gap-2 hover:text-white transition-colors">
@@ -41,10 +41,10 @@ export default function Resume() {
           {/* About */}
           <section className="mb-8">
             <p className="text-lg text-slate-700 leading-relaxed">
-              Multi-disciplined TypeScript developer with a strong interest in UX/UI and AI automation. 
-              Since 2018, I&apos;ve been working non-stop for startups in the Belgian tech sector. Today I freelance 
-              for SaaS companies and digital agencies that need to move fast. I co-found projects, build MVPs, 
-              and help businesses leverage AI to simplify and accelerate their processes.
+              Senior frontend engineer with 6+ years of experience building scalable, maintainable applications 
+              in TypeScript, React, and Vue. I take end-to-end ownership from architecture to deployment, 
+              championing code quality and developer experience. Proven track record delivering complex features 
+              at SaaS startups, with deep expertise in modern build tooling, testing frameworks, and component-based architectures.
             </p>
           </section>
 
@@ -158,8 +158,9 @@ export default function Resume() {
                       <span className="text-sm text-slate-500">Jan 2020 - 2024</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      Built gamification software end-to-end. Technical analysis, React development, 
-                      Node.js backend, MySQL/GCP infrastructure. 4+ years scaling a Belgian startup.
+                      Led frontend architecture and feature development for a gamification SaaS platform. 
+                      Owned end-to-end delivery of complex features using React, TypeScript, and Node.js. 
+                      Drove code quality standards, testing practices, and scalable component architecture over 4+ years.
                     </p>
                   </div>
 
@@ -172,8 +173,8 @@ export default function Resume() {
                       <span className="text-sm text-slate-500">Apr 2018 - Oct 2019</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      Frontend development and UI/UX for a multi-purpose HR tool. 
-                      Vue.js, unit testing with Jest. Fast growth under senior mentorship.
+                      Frontend development for a multi-purpose HR SaaS platform. Built reusable Vue.js components, 
+                      implemented comprehensive unit testing with Jest, and contributed to UI/UX improvements.
                     </p>
                   </div>
 
@@ -239,7 +240,7 @@ export default function Resume() {
                   <div>
                     <h4 className="font-semibold text-slate-800 text-sm mb-2">Frontend</h4>
                     <div className="flex flex-wrap gap-1.5">
-                      {["React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS", "D3.js"].map(skill => (
+                      {["React", "Vue.js", "Next.js", "TypeScript", "D3.js", "TailwindCSS"].map(skill => (
                         <span key={skill} className="px-2 py-1 bg-slate-200 text-slate-800 text-xs rounded">{skill}</span>
                       ))}
                     </div>
@@ -263,7 +264,7 @@ export default function Resume() {
                   <div>
                     <h4 className="font-semibold text-slate-800 text-sm mb-2">Tools & Platforms</h4>
                     <div className="flex flex-wrap gap-1.5">
-                      {["Vercel", "Clerk", "Stripe", "Git", "Figma"].map(skill => (
+                      {["Git", "Jest", "Vite", "Vercel", "Figma", "CI/CD"].map(skill => (
                         <span key={skill} className="px-2 py-1 bg-slate-200 text-slate-800 text-xs rounded">{skill}</span>
                       ))}
                     </div>
