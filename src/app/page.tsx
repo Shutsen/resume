@@ -43,7 +43,7 @@ export default function Resume() {
             <p className="text-lg text-slate-700 leading-relaxed">
               Senior frontend engineer with 8+ years of experience building scalable, maintainable applications 
               in TypeScript, React, and Vue. I take end-to-end ownership from architecture to deployment, 
-              championing code quality and developer experience. Proven track record delivering complex features 
+              with a strong focus on code quality and developer experience. Proven track record delivering complex features 
               at SaaS startups, with deep expertise in modern build tooling, testing frameworks, and component-based architectures.
             </p>
           </section>
