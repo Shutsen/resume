@@ -96,6 +96,25 @@ export default function Resume() {
                       ))}
                     </div>
                   </div>
+
+                  <div>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-lg font-semibold text-slate-900">My Travel Agent</h3>
+                        <p className="text-slate-600 text-sm">Founder • AI Travel Planning</p>
+                      </div>
+                      <span className="text-sm text-slate-500">2024</span>
+                    </div>
+                    <p className="text-slate-700 mt-2">
+                      AI-powered travel planning tool that creates unforgettable journeys without the hassle 
+                      of endless research. Smooth travel planning with intelligent recommendations.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {["Next.js", "OpenAI", "PostgreSQL", "Stripe"].map(tag => (
+                        <span key={tag} className="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">{tag}</span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
               </section>
 
@@ -106,6 +125,21 @@ export default function Resume() {
                 </h2>
                 
                 <div className="space-y-5">
+                  <div>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="text-lg font-semibold text-slate-900">Data Visualisation Engineer</h3>
+                        <p className="text-slate-600 text-sm">Flemish Government • Freelance</p>
+                      </div>
+                      <span className="text-sm text-slate-500">Jan 2025 - Present</span>
+                    </div>
+                    <p className="text-slate-700 mt-2">
+                      Maintaining and developing custom data visualization applications (Arvastat, Schoolverlaters, 
+                      Vlaanderen in Europa, Beroepen) — 20+ public dashboards serving all citizens of Flanders. 
+                      End-to-end delivery from requirements to go-live using D3.js, Leaflet, and modern JS libraries.
+                    </p>
+                  </div>
+
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
@@ -183,7 +217,7 @@ export default function Resume() {
                   <div>
                     <h4 className="font-semibold text-slate-800 text-sm mb-2">Frontend</h4>
                     <div className="flex flex-wrap gap-1.5">
-                      {["React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS"].map(skill => (
+                      {["React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS", "D3.js"].map(skill => (
                         <span key={skill} className="px-2 py-1 bg-slate-200 text-slate-800 text-xs rounded">{skill}</span>
                       ))}
                     </div>
