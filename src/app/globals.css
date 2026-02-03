@@ -7,32 +7,3 @@
 body {
   font-family: var(--font-inter);
 }
-
-@media print {
-  body {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-  
-  .print\\:py-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  
-  .print\\:px-0 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  .print\\:bg-white {
-    background: white;
-  }
-  
-  .print\\:shadow-none {
-    box-shadow: none;
-  }
-  
-  .print\\:rounded-none {
-    border-radius: 0;
-  }
-}
