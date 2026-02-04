@@ -68,7 +68,7 @@ export default function Resume() {
                         </a>
                         <p className="text-slate-600 text-sm">Co-Founder • AI Automation Agency</p>
                       </div>
-                      <span className="text-sm text-slate-500">Apr 2024 - Present</span>
+                      <span className="text-sm text-slate-500">Apr 2025 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
                       Helping businesses simplify, automate, and accelerate processes through accessible AI solutions. 
