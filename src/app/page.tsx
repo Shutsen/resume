@@ -137,15 +137,16 @@ export default function Resume() {
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
-                        <h3 className="text-lg font-semibold text-slate-900">Data Visualisation Engineer</h3>
+                        <h3 className="text-lg font-semibold text-slate-900">Full Stack Developer (Data Visualisation)</h3>
                         <p className="text-slate-600 text-sm">Flemish Government • Freelance</p>
                       </div>
                       <span className="text-sm text-slate-500">Jan 2025 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      Maintaining and developing custom data visualization applications (Arvastat, Schoolverlaters, 
+                      Full stack development of custom data visualization applications (Arvastat, Schoolverlaters, 
                       Vlaanderen in Europa, Beroepen) — 20+ public dashboards serving all citizens of Flanders. 
-                      End-to-end delivery from requirements to go-live using D3.js, Leaflet, and Python backend for data processing.
+                      Building React/Next.js frontends with D3.js and Leaflet for interactive visualizations, 
+                      Python backend for data processing. End-to-end delivery from requirements to go-live.
                     </p>
                   </div>
 
