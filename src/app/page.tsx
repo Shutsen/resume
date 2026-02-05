@@ -71,7 +71,7 @@ export default function Resume() {
                       <span className="text-sm text-slate-500">Apr 2025 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      Building AI-powered web applications with React and Next.js to help businesses automate processes. 
+                      Building AI-powered web applications with React, Next.js, and TypeScript to help businesses automate processes. 
                       From intelligent chatbots to custom full stack apps, we make AI achievable for every company.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
@@ -93,7 +93,7 @@ export default function Resume() {
                       <span className="text-sm text-slate-500">Dec 2025 - Present</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      Full stack React/Next.js community platform for pet sitting, built with transparency and trust. 
+                      Full stack React/Next.js/TypeScript community platform for pet sitting, built with transparency and trust. 
                       Features real-time messaging, blind reviews, and AI-powered review importing.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
@@ -115,7 +115,7 @@ export default function Resume() {
                       <span className="text-sm text-slate-500">2024</span>
                     </div>
                     <p className="text-slate-700 mt-2">
-                      React/Next.js AI travel planning tool with OpenAI integration. Creates personalized journeys 
+                      React/Next.js/TypeScript AI travel planning tool with OpenAI integration. Creates personalized journeys 
                       without endless research. Full stack development with PostgreSQL and Stripe payments.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-2">
