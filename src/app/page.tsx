@@ -59,6 +59,30 @@ export default function Resume() {
                 </h2>
                 
                 <div className="space-y-6">
+                  {/* Just Print At Home */}
+                  <div>
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <a href="https://justprintathome.com" target="_blank" className="text-lg font-semibold text-slate-900 hover:text-blue-600 transition-colors inline-flex items-center gap-1">
+                          Just Print At Home
+                          <ExternalLink size={14} className="text-slate-400" />
+                        </a>
+                        <p className="text-slate-600 text-sm">Founder • Digital Products</p>
+                      </div>
+                      <span className="text-sm text-slate-500">Feb 2026 - Present</span>
+                    </div>
+                    <p className="text-slate-700 mt-2">
+                      Printable coloring books and screen-free activities for kids. Instant download, unlimited prints. 
+                      Built with Next.js, offering parents an affordable alternative to expensive store-bought coloring books.
+                    </p>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {["Next.js", "TypeScript", "Stripe", "Digital Products", "E-commerce"].map(tag => (
+                        <span key={tag} className="px-2 py-1 bg-purple-100 text-purple-800 text-xs rounded-full">{tag}</span>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Kaimeleon - commented out for now, can revive later
                   <div>
                     <div className="flex items-start justify-between">
                       <div>
@@ -80,6 +104,7 @@ export default function Resume() {
                       ))}
                     </div>
                   </div>
+                  */}
 
                   <div>
                     <div className="flex items-start justify-between">

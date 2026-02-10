@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Geert Van Campenhout | Full Stack TypeScript Developer",
-  description: "Full Stack TypeScript Developer specializing in React, Next.js, and AI automation. Co-founder of Kaimeleon and Global Pet Sitter. Based in Luxembourg.",
+  description: "Full Stack TypeScript Developer specializing in React, Next.js, and AI automation. Founder of Just Print At Home and Global Pet Sitter. Based in Luxembourg.",
   keywords: ["TypeScript", "React", "Next.js", "Full Stack Developer", "AI", "Luxembourg", "Freelance"],
   authors: [{ name: "Geert Van Campenhout" }],
   openGraph: {
